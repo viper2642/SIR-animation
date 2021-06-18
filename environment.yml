@@ -1,8 +1,7 @@
 name: SIR-animate
+channels:
+  - conda-forge
 dependencies:
     - numpy
     - matplotlib
     - scipy
-    - random
-    - collections
-    - sys

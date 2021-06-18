@@ -147,5 +147,5 @@ if __name__ == "__main__":
         temps_final=160.
         
     a = AnimatedScatter(R0,temps_recup,temps_final)
-    a.ani.save('covid_model_R0{}-tc{}.mp4'.format(R0,temps_recup),fps=24,extra_args=['-vcodec','libx264'])
+    #a.ani.save('covid_model_R0{}-tc{}.mp4'.format(R0,temps_recup),fps=24,extra_args=['-vcodec','libx264'])
     plt.show()
