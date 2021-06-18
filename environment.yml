@@ -1,0 +1,8 @@
+name: SIR-animate
+dependencies:
+    - numpy
+    - matplotlib
+    - scipy
+    - random
+    - collections
+    - sys
